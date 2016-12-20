@@ -1,4 +1,4 @@
-
+"""Hold route info broken out of __init__."""
 
 def includeme(config):
     """This function adds routes to pyramid's configurator."""
