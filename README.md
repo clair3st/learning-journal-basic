@@ -9,3 +9,5 @@ Mockups have been prepared using bootstrap for the following pages:
  - *edit.html* - HTML form page you will use to edit an existing entry. The title and text of the entry are inputs in this form.
 
 *style.css* has been prepared for the styling of each of the 4 pages.
+
+The learning journal is deployed on: https://claires-learning-journal.herokuapp.com/ utilizing Pyramid.
