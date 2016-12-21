@@ -1,0 +1,12 @@
+{% extends "layout.jinja2" %}
+{% block body %}
+
+<article>
+    <h2 class="entrytitle">{{ title }}</h2>
+    <p class="date">{{ creation_date }}</p>
+    <p class="entry">{{body}}</p>
+    <a class="btn btn-primary" href="/journal/{{id}}/edit-entry">Edit</a>
+    <a class="btn btn-primary pull-right" href="/">Back</a>
+</article>
+
+{% endblock %}   
