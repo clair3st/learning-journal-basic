@@ -13,14 +13,16 @@ requires = [
     'pyramid_jinja2',
     'pyramid_debugtoolbar',
     'waitress',
-    ]
+    'ipython',
+    'pyramid_ipython'
+]
 
 tests_require = [
     'WebTest >= 1.3.1',  # py3 compat
     'pytest',  # includes virtualenv
     'pytest-cov',
     'tox'
-    ]
+]
 
 setup(name='learning-journal-basic',
       version='0.0',
