@@ -6,8 +6,8 @@
 
     <link href='https://fonts.googleapis.com/css?family=Sansita+One|Kameron' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
-    <link href="../static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/style.css" rel="stylesheet">
+    <link href="{{ request.static_path('learning_journal_basic:static/bootstrap-3.3.7-dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ request.static_path('learning_journal_basic:static/style.css') }}" rel="stylesheet">
 
     <title>Claire's Learning Journal</title>
   </head>
@@ -34,11 +34,9 @@
       </div>
     </nav>
 
-    <section class="content">
 
     {% block body %}{% endblock %}
 
-    </section>
 
 
     <footer class="footinfo">Claire's Learning Journal ~ Python 401
