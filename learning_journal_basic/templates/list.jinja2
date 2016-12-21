@@ -1,0 +1,20 @@
+
+
+{% extends "layout.jinja2" %}
+{% block body %}
+    <div class="container">
+
+      <div class="starter-template">
+        <h1 class="pages-title">Learning Journal</h1>
+        <p class="lead">Claire Gatenby's learning journal submissions for Codefellows Python 401</p>
+      </div>
+
+    </div><!-- /.container -->
+
+    <article>
+      <h2 class="entrytitle">
+        <a href="/journal/1">{{ title }}</a>
+      </h2>
+        <p class="date">{{ creation_date }}</p>
+    </article>
+{% endblock %}     
