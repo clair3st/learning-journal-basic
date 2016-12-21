@@ -12,6 +12,8 @@ Mockups have been prepared using jinja2 for the following pages:
 
 The learning journal is deployed on: https://claires-learning-journal.herokuapp.com/ utilizing Pyramid.
 
+##Test coverage:
+
 ```
 platform darwin -- Python 2.7.11, pytest-3.0.5, py-1.4.32, pluggy-0.4.0
 rootdir: /Users/clairegatenby/CF/401/learning-journal-basic, inifile: pytest.ini
